@@ -101,7 +101,7 @@ const SkillSection = (props: { title: string }) => {
               <SkillBadge key={index} skills={frame} />
             ))}
           {title === "Others" &&
-            mySkillList[0].framework.map((others, index) => (
+            mySkillList[0].others.map((others, index) => (
               <SkillBadge key={index} skills={others} />
             ))}
         </ul>
